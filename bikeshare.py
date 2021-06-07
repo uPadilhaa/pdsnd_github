@@ -27,7 +27,7 @@ def get_filters():
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
         month = input("\nWhat month do you want to search for ?. Your answer must be in one of the first 6 months of the year or every month, for example ('all', January, February, ..., June)\n").lower()
-        if month in ['all', 'january', 'february', 'march', 'april', 'may', 'june']:
+        if month in ['january', 'february', 'march', 'april', 'may', 'june', 'all']:
             break
         else:
             print("This option is not valid. Please write one of the options provided")
@@ -35,7 +35,7 @@ def get_filters():
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
         day = input("\nWhat day do you want to search for ?. Your answer must be in one of the 7 days of the week or all days, for example ('all', Monday, Tuesday, Wednesday, ..., Sunday)\n").lower()
-        if day in ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']:
+        if day in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']:
             break
     else:
         print("This option is not valid. Please write one of the options provided")
@@ -192,3 +192,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#Projeto feito em Inglês pelo fato do curso na Udacity ser Only English.
