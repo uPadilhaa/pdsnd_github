@@ -11,6 +11,8 @@ The 3 Project for Udacity in the course Programming for Data Science with Python
 
 ### Files used
 bikeshare.py
+README.md
 
 ### Credits
 Udacity
+Erick Silva
