@@ -15,4 +15,5 @@ README.md
 
 ### Credits
 Udacity
+
 Erick Silva
